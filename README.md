@@ -27,12 +27,13 @@ This sample app contains an amazing design for to help boostrap the next great m
 
 ## :m: [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
 
-    "nativescript-ui-chart": "~8.0.2",
-    "nativescript-ui-listview": "~9.0.4",
-    "nativescript-ui-sidedrawer": "~9.0.3",
-    "nativescript-ui-calendar": "~7.0.2",
-    "nativescript-ui-autocomplete": "~7.0.2",
-    "nativescript-ui-dataform": "~7.0.4",
-    "nativescript-ui-gauge": "~7.0.2",
-
-$ npm install nativescript-ui-chart nativescript-ui-listview 
+```
+$ npm install \
+      nativescript-ui-chart \
+      nativescript-ui-listview \
+      nativescript-ui-sidedrawer \
+      nativescript-ui-calendar \
+      nativescript-ui-autocomplete \
+      nativescript-ui-dataform \
+      nativescript-ui-gauge
+```
