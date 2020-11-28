@@ -1,0 +1,144 @@
+<GridLayout rows="*, auto" columns="*" class="artist-bg">
+    <GridLayout row="0" rows="*">
+        <!-- This layout contains your header -->
+        <StackLayout #topView row="0" verticalAlignment="top">
+            <!-- <Image src="http://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"
+                [height]="stretchyHeight" width="100%" height="100%" stretch="aspectFill"></Image> -->
+                <Label text="i" class="icoPB backbtn" padding="10 10" margin="5 15" fontSize="20"></Label>
+                <Label text="CAMILA CABELLO" class="mt w fw800" fontSize="22" horizontalAlignment="center" marginTop="100"></Label>
+        </StackLayout>
+        <ScrollView #scrollView row="0" (scroll)="onScroll($event, scrollView, topView)"
+            scrollBarIndicatorVisible="false">
+            <StackLayout>
+                <!-- Invisible spacing layout -->
+                <StackLayout [height]="headerHeight">
+                    <Label text=" " padding="20" opacity="0.1" width="60" horizontalAlignment="left" (tap)="goBack()"></Label>
+                </StackLayout>
+                <StackLayout width="100%" backgroundColor="#fff">
+                    <ScrollView row="1" scrollBarIndicatorVisible="false">
+                        <StackLayout>
+                            <GridLayout columns="*, *" rows="auto" marginTop="30" marginRight="15">
+                                <GridLayout col="0" row="0" class="artist-tiles t4" shadow="2" shadowColor="#666">
+                                    <StackLayout orientation="horizontal" horizontalAlignment="center" (tap)="goToPlayer()">
+                                        <Label text="c" paddingRight="10" class="pb" verticalAlignment="center"></Label>
+                                        <Label text="PLAY " fontSize="16" horizontalAlignment="center" verticalAlignment="center"></Label>
+                                    </StackLayout>
+                                </GridLayout>
+                                <GridLayout col="1" row="0" class="artist-tiles t5">
+                                    <StackLayout orientation="horizontal" horizontalAlignment="center">
+                                        <Label text="e" paddingRight="10" class="pb" verticalAlignment="center"></Label>
+                                        <Label text="SHUFFLE" fontSize="16" horizontalAlignment="center" verticalAlignment="center"></Label>
+                                    </StackLayout>
+                                </GridLayout>
+                            </GridLayout>
+
+                            <Label text="HITS" class="p15 sf fw800" color="#374064"></Label>
+                            <ScrollView scrollBarIndicatorVisible="false" orientation="horizontal">
+                                <StackLayout orientation="horizontal"  paddingRight="15">
+                                    <GridLayout rows="*" columns="*" width="155" marginLeft="15" borderRadius="8" clipToBounds="true" class="clip">
+                                        <Image row="0" col="0" src="~/images/camila-songs/1.png"></Image>
+                                        <GridLayout row="0" col="0" rows="100, 50" columns="*" verticalAlignment="bottom">
+                                            <Image row="0" col="0" src="~/images/bt1.png" verticalAlignment="top" width="45" horizontalAlignment="right" marginRight="10" marginTop="5"></Image>
+                                        </GridLayout>
+                                    </GridLayout>
+                                    <GridLayout rows="*" columns="*" width="155" marginLeft="15" borderRadius="8">
+                                        <Image src="~/images/camila-songs/2.png"></Image>
+                                        <GridLayout row="0" col="0" rows="100, 50" columns="*" verticalAlignment="bottom">
+                                            <Image row="0" col="0" src="~/images/bt2.png" verticalAlignment="top" width="45" horizontalAlignment="right" marginRight="10"  marginTop="5"></Image>
+                                        </GridLayout>
+                                    </GridLayout>
+                                    <GridLayout rows="*" columns="*" width="155" marginLeft="15" borderRadius="8">
+                                        <Image src="~/images/camila-songs/3.png"></Image>
+                                        <GridLayout row="0" col="0" rows="100, 50" columns="*" verticalAlignment="bottom">
+                                            <Image row="0" col="0" src="~/images/bt3.png" verticalAlignment="top" width="45" horizontalAlignment="right" marginRight="10" marginTop="5"></Image>
+                                        </GridLayout>
+                                    </GridLayout>
+                                </StackLayout>
+                            </ScrollView> 
+                            <Label text="SONGS" class="p15 sf fw800"
+                                color="#374064"></Label>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto"
+                                padding="15" class="border" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/1.png"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="Never be the same"
+                                    class="fs16 sf" fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto, auto"
+                                padding="15" class="border" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/2.png"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="Real Friends"
+                                    class="fs16 sf" fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto, auto"
+                                padding="15" class="border" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/3.png"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="Havana"
+                                    class="fs16 sf" fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello Ft Young Thug"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto, auto"
+                                padding="15" class="border" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/4.jpg"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="OMG" class="fs16 sf"
+                                    fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello Ft Quavo"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto, auto"
+                                padding="15" class="border" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/5.png"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="I have Questions"
+                                    class="fs16 sf" fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                            <GridLayout rows="auto, auto" columns="auto, *, auto, auto"
+                                padding="15" (tap)="goToPlayer()">
+                                <Image row="0" col="0" rowSpan="2" src="~/images/camila-songs/6.png"
+                                    width="45" marginRight="15"
+                                    borderRadius="5"></Image>
+                                <Label row="0" col="1" text="Crying In The Club"
+                                    class="fs16 sf" fontWeight="400"></Label>
+                                <Label row="1" col="1" text="Camila Cabello"
+                                    class="gr fs14" fontWeight="100"></Label>
+                                <Label row="0" col="2" rowSpan="2"
+                                    verticalAlignment="center" class="pb dg"
+                                    paddingLeft="15" text="g"></Label>
+                            </GridLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+</GridLayout>

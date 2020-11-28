@@ -1,0 +1,137 @@
+
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import "~@nativescript/theme/css/core.css";
+@import "~@nativescript/theme/css/sky.css";
+
+/* Place any CSS rules you want to apply on both iOS and Android here.
+This is where the vast majority of your CSS code goes. */
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18;
+    padding: 0;
+}
+.profile-img{
+    width: 35;
+    height: 35;
+    border-radius: 25; 
+}
+.clip{
+    overflow: hidden;
+}
+/* GLOBAL CSS */
+.p15{
+    padding: 15;
+}
+.fw800{
+    font-weight: 800;
+}
+fw100{
+    font-weight: 100;
+}
+.fs14{
+    font-size: 14;
+}
+.fs12{
+    font-size: 12;
+}
+.fs10{
+    font-size: 10;
+}
+.fs18{
+    font-size: 18;
+}
+.fs20{
+    font-size: 20;
+}
+.ls{
+    letter-spacing: 0.1px;
+}
+.ico{
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 28;
+}
+.icoPB{
+    font-family: "player-btns";
+    color: #fff;
+}
+.mt{
+    font-family: Montserrat;
+}
+.sf{
+    font-family: SF Pro Display;
+    font-weight: 800;
+}
+.sfl{
+    font-family: SF Pro Display;
+    font-weight: 100;
+}
+.pb{
+    font-family: player-btns;
+}
+.active{
+    color: #C0FF40;
+}
+.w{
+    color: #ffffff;
+}
+.header-tiles{
+    width: 135;
+    height: 45;
+    border-radius: 8;
+    font-size: 14;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 15 15;
+}
+.artist-tiles{
+    width: 150;
+    height: 50;
+    border-radius: 8;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 15 15;
+}
+.t1{
+    background: rgb(255,89,162);
+    background: linear-gradient(to right, rgb(255,89,162) 0%,rgb(255,233,123) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff59a2', endColorstr='#ffe97b',GradientType=1 );
+}
+.t2{
+    background: rgb(138,232,255);
+    background: linear-gradient(to right, rgb(138,232,255) 0%,rgb(149,31,255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ae8ff', endColorstr='#951fff',GradientType=1 );
+}
+.t3{
+    background: rgb(138,255,220);
+    background: linear-gradient(to right, rgb(138,255,220) 0%,rgb(195,255,31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8affdc', endColorstr='#c3ff1f',GradientType=1 );
+}
+.t4{
+    background: rgb(255,45,85);
+    font-size: 12;
+}
+.t5{
+    background: #f6f6f6;
+    color: rgb(255,45,85);
+    font-size: 12;    
+}

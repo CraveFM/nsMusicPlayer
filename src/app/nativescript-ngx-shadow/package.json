@@ -1,0 +1,31 @@
+{
+  "name": "nativescript-ngx-shadow",
+  "version": "6.3.0",
+  "repository": "https://github.com/TheOriginalJosh/nativescript-ngx-shadow.git",
+  "author": "Josh Sommer <joshdsommer@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": ">=6.0.0",
+    "@angular/common": ">=6.0.0"
+  },
+  "nativescript": {
+    "platforms": {
+      "android": "4.0.1",
+      "ios": "4.0.1"
+    }
+  },
+  "main": "bundles/nativescript-ngx-shadow.umd.js",
+  "module": "fesm5/nativescript-ngx-shadow.js",
+  "es2015": "fesm2015/nativescript-ngx-shadow.js",
+  "esm5": "esm5/nativescript-ngx-shadow.js",
+  "esm2015": "esm2015/nativescript-ngx-shadow.js",
+  "fesm5": "fesm5/nativescript-ngx-shadow.js",
+  "fesm2015": "fesm2015/nativescript-ngx-shadow.js",
+  "typings": "nativescript-ngx-shadow.d.ts",
+  "metadata": "nativescript-ngx-shadow.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

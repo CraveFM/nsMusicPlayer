@@ -1,0 +1,22 @@
+.border{
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid
+}
+.gr{
+    color: #bdbdbd;
+}
+.dg{
+    color: #8590A7;
+}
+.artist-bg{
+    background-image: url('http://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+.backbtn{
+    background-image: url('~/images/btn4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}

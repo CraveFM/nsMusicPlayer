@@ -1,0 +1,60 @@
+.song-title{
+    font-size: 18;
+    letter-spacing: 0.2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.time-line{
+    width: 100%;
+    padding: 0 30;
+    height: 2;
+    border-top-color: rgba(180, 180, 180, 0.5);
+    border-top-width: 2;
+}
+.time-passed{
+    width: 60;
+    padding: 0 30;
+    height: 2;
+    border-top-color: rgba(255, 255, 255, 1);
+    border-top-width: 2;
+}
+.time-indicator{
+    width: 18;
+    height: 18;
+    border-radius: 10;
+    background-color: #fff;
+    margin-left: 60;
+}
+.window{
+    /* border-top-right-radius: 15;
+    border-top-left-radius: 15; */
+    background-image: url("~/images/playerbg.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.border-b{
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+    margin: 0 15;
+    opacity: 0.3;
+}
+.bt1{
+    background-image: url("~/images/B1.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.bt2{
+    background-image: url("~/images/B2.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.bt3{
+    background-image: url("~/images/B3.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}

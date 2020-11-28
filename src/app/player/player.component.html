@@ -1,0 +1,62 @@
+<GridLayout class="window" #bg>
+    <ScrollView scrollBarIndicatorVisible="false">
+        <StackLayout>
+            <Label row="0" col="1" text="h" class="icoPB" fontSize="28" horizontalAlignment="center" margin="25" (tap)="goBack()"></Label>
+            <Image row="0" col="0" src="~/images/camila-songs/1.png" width="300" height="300" borderRadius="10" (tap)="blurImg()"></Image>
+            <Label text="never be the same" class="song-title mt" fontWeight="400" padding="40 0 30 0" horizontalAlignment="center"></Label>
+            <GridLayout columns="*, *" rows="auto, auto" margin="0 40">
+                <GridLayout col="0" row="0" columns="*" rows="auto" colSpan="2">
+                    <GridLayout col="0" row="0" horizontalAlignment="center" verticalAlignment="center" class="time-line"></GridLayout>
+                    <GridLayout col="0" row="0" horizontalAlignment="left" verticalAlignment="center" class="time-passed"></GridLayout>
+                    <GridLayout col="0" row="0" horizontalAlignment="left" verticalAlignment="center" class="time-indicator"></GridLayout>
+                </GridLayout>
+                <Label row="1" col="0" text="0:55" class="sfl fw100 w" fontSize="13" horizontalAlignment="left"></Label>
+                <Label row="1" col="1" text="2:54" class="sfl fw100 w" fontSize="13" horizontalAlignment="right"></Label>
+            </GridLayout>
+            <GridLayout columns="*, *, *, *, *" rows="100" padding="20 15 10 19">
+                <Label verticalAlignment="center" row="0" col="0" text="f" class="icoPB" fontSize="" textAlignment="center"></Label>
+                <Label verticalAlignment="center" row="0" col="1" text="b" class="icoPB bt1" padding="15 0" fontSize="20" marginRight="20" textAlignment="center"></Label>
+                <Label verticalAlignment="center" row="0" col="2" text="d" class="icoPB bt2" padding="20 0" fontSize="32" textAlignment="center"></Label>
+                <Label verticalAlignment="center" row="0" col="3" text="a" class="icoPB bt3" padding="15 0" fontSize="20" marginLeft="20" textAlignment="center"></Label>
+                <Label verticalAlignment="center" row="0" col="4" text="e" class="icoPB" fontSize="" textAlignment="center"></Label>
+            </GridLayout>
+
+            <Label text="Next" class="sf fs20 w fw800" padding="25 20 0 15"></Label>
+            <GridLayout rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="Never Be The Same" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+            <Label text="" class="border-b" height="1"></Label>
+            <GridLayout rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="Real Friends" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+            <Label text="" class="border-b" height="1"></Label>
+            <GridLayout row="2" rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="Havana" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello Ft Young Thug"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+            <Label text="" class="border-b" height="1"></Label>
+            <GridLayout row="3" rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="OMG" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello Ft Quavo"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+            <Label text="" class="border-b" height="1"></Label>
+            <GridLayout row="4" rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="I Have Questions" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+            <Label text="" class="border-b" height="1"></Label>
+            <GridLayout row="5" rows="auto, auto" columns="*, auto" margin="15 15 0 15" paddingBottom="15">
+                <Label row="0" col="0" class="sfl fs18 w" text="Crying In The Club" paddingBottom="8"></Label>
+                <Label row="1" col="0" class="sfl fs14 fw100 w" text="Camila Cabello"></Label>
+                <Label row="0" col="1" text="g" rowSpan="2" class="icoPB"></Label>
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
