@@ -28,7 +28,7 @@ This sample app contains an amazing design for to help boostrap the next great m
 ## :m: [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
 
 ```
-$ npm install \
+$ npm install --save \
       nativescript-ui-chart \
       nativescript-ui-listview \
       nativescript-ui-sidedrawer \
