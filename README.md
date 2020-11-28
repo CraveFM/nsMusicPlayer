@@ -23,9 +23,7 @@ This sample app contains an amazing design for to help boostrap the next great m
 
 # Libraries
 
-
-
-## :m: Free ** [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
+## :one: Free ** [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
 
 ** Although the components are free, they are not open-source and their code is proprietary
 
@@ -39,3 +37,32 @@ $ npm install --save \
       nativescript-ui-dataform \
       nativescript-ui-gauge
 ```
+
+# Plugins
+
+```
+$ ns plugin add nativescript-accelerometer
+```
+
+
+@nativescript/imagepicker": "~1.0.0",
+@nativescript/social-share": "2.0.1",
+
+
+@progress-nativechat/nativescript-nativechat": "3.0.0",
+
+
+
+nativescript-background-http": "4.2.1",
+
+nativescript-camera": "4.5.0",
+
+ativescript-geolocation": "5.1.0",
+
+nativescript-image": "3.0.12",
+
+nativescript-intl": "4.0.2",
+
+nativescript-iqkeyboardmanager": "1.5.1",
+
+nativescript-theme-core": "2.0.24",
