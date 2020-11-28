@@ -2,7 +2,7 @@
 
 
 
-Example taken from [`:bookmark: nativescript.rocks`](https://plugins.nativescript.rocks/samples)
+Example taken from [:bookmark:`nativescript.rocks`](https://plugins.nativescript.rocks/samples)
 
 https://play.nativescript.org/?template=play-ng&id=rPhRoK&v=3
 
