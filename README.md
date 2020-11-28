@@ -25,7 +25,7 @@ This sample app contains an amazing design for to help boostrap the next great m
 
 
 
-## :m: [NativeScript UI](https://nativescript.org/ui-for-nativescript)
+## :m: [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
 
     "nativescript-ui-autocomplete": "~7.0.2",
     "nativescript-ui-calendar": "~7.0.2",
