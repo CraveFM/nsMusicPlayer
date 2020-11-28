@@ -47,29 +47,19 @@ $ ns plugin add nativescript-accelerometer
 :pushpin: [@nativescript/plugins](https://github.com/NativeScript/plugins) used
 
 ```
-$ ns plugin add @nativescript/imagepicker; \
-  ns plugin add @nativescript/social-share; \
-  ns plugin add @nativescript/background-http
+$ ns plugin add @nativescript/background-http; \
+  ns plugin add @nativescript/camera; \
+  ns plugin add @nativescript/geolocation; \
+  ns plugin add @nativescript/image; \
+  ns plugin add @nativescript/imagepicker; \
+  ns plugin add @nativescript/intl; \
+  ns plugin add @nativescript/iqkeyboardmanager; \
+  ns plugin add @nativescript/social-share
 ```
 
-@nativescript/imagepicker": "~1.0.0",
-@nativescript/social-share": "2.0.1",
 
 
 @progress-nativechat/nativescript-nativechat": "3.0.0",
 
-
-
-nativescript-background-http": "4.2.1",
-
-nativescript-camera": "4.5.0",
-
-ativescript-geolocation": "5.1.0",
-
-nativescript-image": "3.0.12",
-
-nativescript-intl": "4.0.2",
-
-nativescript-iqkeyboardmanager": "1.5.1",
 
 nativescript-theme-core": "2.0.24",
