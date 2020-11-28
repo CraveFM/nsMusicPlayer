@@ -50,14 +50,13 @@ $ ns plugin add nativescript-accelerometer
 $ ns plugin add @nativescript/background-http; \
   ns plugin add @nativescript/camera; \
   ns plugin add @nativescript/geolocation; \
-  ns plugin add @nativescript/image; \
   ns plugin add @nativescript/imagepicker; \
   ns plugin add @nativescript/intl; \
   ns plugin add @nativescript/iqkeyboardmanager; \
   ns plugin add @nativescript/social-share
 ```
 
-
+  ns plugin add @nativescript/image; \
 
 @progress-nativechat/nativescript-nativechat": "3.0.0",
 
