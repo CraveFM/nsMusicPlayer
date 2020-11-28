@@ -40,10 +40,6 @@ $ npm install --save \
 
 # Plugins
 
-```
-$ ns plugin add nativescript-accelerometer
-```
-
 :pushpin: [@nativescript/plugins](https://github.com/NativeScript/plugins) used
 
 ```
@@ -56,9 +52,10 @@ $ ns plugin add @nativescript/background-http; \
   ns plugin add @nativescript/social-share
 ```
 
-  ns plugin add @nativescript/image; \
+:pushpin: Others not really used
 
-@progress-nativechat/nativescript-nativechat": "3.0.0",
-
-
-nativescript-theme-core": "2.0.24",
+```
+$ ns plugin add nativescript-accelerometer; \
+  ns plugin add @progress-nativechat/nativescript-nativechat; \
+  ns plugin add nativescript-image;
+```
