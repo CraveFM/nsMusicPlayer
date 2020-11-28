@@ -25,7 +25,9 @@ This sample app contains an amazing design for to help boostrap the next great m
 
 
 
-## :m: [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
+## :m: Free ** [Progress NativeScript UI](https://github.com/ProgressNS/nativescript-ui-samples)
+
+** Although the components are free, they are not open-source and their code is proprietary
 
 ```
 $ npm install --save \
