@@ -47,7 +47,9 @@ $ ns plugin add nativescript-accelerometer
 :pushpin: [@nativescript/plugins](https://github.com/NativeScript/plugins)
 
 ```
-$ ns plugin add @nativescript/imagepicker
+$ ns plugin add \
+     @nativescript/imagepicker \
+     @nativescript/social-share
 ```
 
 @nativescript/imagepicker": "~1.0.0",
