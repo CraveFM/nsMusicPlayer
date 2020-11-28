@@ -44,12 +44,12 @@ $ npm install --save \
 $ ns plugin add nativescript-accelerometer
 ```
 
-:pushpin: [@nativescript/plugins](https://github.com/NativeScript/plugins)
+:pushpin: [@nativescript/plugins](https://github.com/NativeScript/plugins) used
 
 ```
-$ ns plugin add \
-     @nativescript/imagepicker \
-     @nativescript/social-share
+$ ns plugin add @nativescript/imagepicker; \
+  ns plugin add @nativescript/social-share; \
+  ns plugin add @nativescript/background-http
 ```
 
 @nativescript/imagepicker": "~1.0.0",
