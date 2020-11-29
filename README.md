@@ -5,7 +5,7 @@
 Example taken from [:bookmark:`nativescript.rocks`](https://plugins.nativescript.rocks/samples) and can be used as a template since it has already been converted to [NativeScript 7](https://nativescript.org/blog/nativescript-7-announcement)
 
 ```
-$ ns create nsMusicPlayer --template https://github.com/CraveFM/nsMusicPlayer
+$ ns create nsMusicStreamingApp --template https://github.com/CraveFM/nsMusicStreamingApp
 ```
 
 https://play.nativescript.org/?template=play-ng&id=rPhRoK&v=3
